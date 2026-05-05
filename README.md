@@ -1,15 +1,15 @@
-# ⛅ WeatherApp - Angular
+#  WeatherApp - Angular
 
 **WeatherApp** es una aplicación web moderna y reactiva diseñada para proporcionar información meteorológica en tiempo real.
 
-## 📸 Capturas de Pantalla
+##  Capturas de Pantalla
 
 | Vista Principal | Historial y Errores |
 | :---: | :---: |
 | <img width="1881" height="866" alt="image" src="https://github.com/user-attachments/assets/6636579c-0922-48a7-81a2-15ffdf3aba2e" /> | <img width="495" height="344" alt="image" src="https://github.com/user-attachments/assets/5460804d-aceb-48ab-b853-cc9575d799d7" /> <img width="1878" height="866" alt="image" src="https://github.com/user-attachments/assets/197ff205-c817-4aaf-b47b-dec721cf75f8" /> <img width="1881" height="865" alt="image" src="https://github.com/user-attachments/assets/0bcbae6a-3c05-44ff-b53d-75c3a3f71c2c" /> <img width="1881" height="866" alt="image" src="https://github.com/user-attachments/assets/8de99117-5c01-4a62-ba6b-dfeaf449a86f" />|
 | *Dashboard con clima actual y pronóstico* | *Manejo de caché y mensajes de validación* |
 
-## 🚀 Características Principales
+##  Características Principales
 
 *   **Estado Reactivo con Signals:** Gestión eficiente del estado de la aplicación utilizando Angular Signals para una reactividad óptima.
 *   **Consumo de API REST:** Integración con la API de OpenWeather para obtener datos climáticos actuales y pronósticos extendidos.
@@ -18,14 +18,14 @@
 *   **Manejo de Errores:** Sistema de notificaciones para errores de conexión o ciudades no encontradas.
 *   **Transformación de Datos:** Pipe personalizado para la conversión de unidades (Kelvin a Celsius).
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 
 *   **Framework:** Angular 18 (Standalone Components)
 *   **Estilos:** CSS3 (Custom Properties & Flexbox/Grid)
 *   **Iconografía:** Font Awesome 7
 *   **Herramientas:** HttpClientModule, RxJS (Observables), Signals
 
-## 📦 Instalación y Configuración
+##  Instalación y Configuración
 
 1.  **Clonar el repositorio:**
     ```bash
