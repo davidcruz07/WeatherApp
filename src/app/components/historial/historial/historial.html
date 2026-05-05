@@ -1,0 +1,13 @@
+<div class="history-container">
+  <h4>Búsquedas recientes</h4>
+  <div class="history-tags">
+    @for (ciudad of ciudades; track ciudad) {
+      <button class="history-item" (click)="seleccionarCiudad(ciudad)">
+        <fa-icon [icon]="iconHistory" class="icon-fa"></fa-icon>
+        {{ ciudad }}
+      </button>
+    } @empty {
+      <p class="empty-msg">Tu historial aparecerá aquí.</p>
+    }
+  </div>
+</div>

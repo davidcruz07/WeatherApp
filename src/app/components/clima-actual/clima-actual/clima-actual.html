@@ -1,0 +1,16 @@
+@if (data) {
+  <div class="weather-card">
+    <h2>{{ data.name }}, {{ data.sys.country }}</h2>
+    
+    <div class="main-info">
+      <img [src]="'https://openweathermap.org/img/wn/' + data.weather[0].icon + '@2x.png'" [alt]="data.weather[0].description">
+      <span class="temperature">{{ data.main.temp | kelvinCelsius }}</span>
+    </div>
+
+    <div class="details">
+      <p>Sensación térmica: {{ data.main.feels_like | kelvinCelsius }}</p>
+      <p>Humedad: {{ data.main.humidity }}%</p>
+      <p class="description">{{ data.weather[0].description }}</p>
+    </div>
+  </div>
+}

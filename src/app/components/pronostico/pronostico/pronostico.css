@@ -1,0 +1,58 @@
+:host {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.forecast-container {
+  background: rgba(147, 165, 255, 0.4);
+  width: 100%;
+  max-width: 500px;       
+  padding: 20px 24px 28px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.forecast-title {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 16px;
+  opacity: 0.9;
+}
+
+.forecast-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.forecast-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 0;           
+}
+
+.forecast-card .date {
+  font-size: 0.85rem;
+  opacity: 0.85;
+  margin: 0 0 4px;
+  white-space: nowrap;
+}
+
+.forecast-card img {
+  width: 48px;
+  height: 48px;
+}
+
+.forecast-card .temp-max {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 4px 0 0;
+  white-space: nowrap;
+}

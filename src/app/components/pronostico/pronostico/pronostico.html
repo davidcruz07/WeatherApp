@@ -1,0 +1,13 @@
+<div class="forecast-container">
+  <h3 class="forecast-title">Pronóstico de 5 días</h3>
+  <div class="forecast-grid">
+    @for (dia of items; track dia.dt_txt) {
+      <div class="forecast-card">
+        <p class="date">{{ dia.dt_txt | date:'dd/MM' }}</p>
+        <img [src]="'https://openweathermap.org/img/wn/' + dia.weather[0].icon + '.png'" 
+             [alt]="dia.weather[0].description">
+        <p class="temp-max">{{ dia.main.temp | kelvinCelsius }}</p>
+      </div>
+    }
+  </div>  
+</div>
