@@ -6,7 +6,7 @@
 
 | Vista Principal | Historial y Errores |
 | :---: | :---: |
-| <img width="1881" height="866" alt="image" src="https://github.com/user-attachments/assets/6636579c-0922-48a7-81a2-15ffdf3aba2e" /> | <img width="495" height="344" alt="image" src="https://github.com/user-attachments/assets/5460804d-aceb-48ab-b853-cc9575d799d7" /> <img width="1878" height="866" alt="image" src="https://github.com/user-attachments/assets/197ff205-c817-4aaf-b47b-dec721cf75f8" /> <img width="1881" height="865" alt="image" src="https://github.com/user-attachments/assets/0bcbae6a-3c05-44ff-b53d-75c3a3f71c2c" /> <img width="1881" height="866" alt="image" src="https://github.com/user-attachments/assets/8de99117-5c01-4a62-ba6b-dfeaf449a86f" />|
+| <img width="1881" height="866" alt="image" src="https://github.com/user-attachments/assets/6636579c-0922-48a7-81a2-15ffdf3aba2e" /> <img width="1879" height="867" alt="image" src="https://github.com/user-attachments/assets/a480c043-66b5-412a-a32d-efbe7eb2702d" />| <img width="495" height="344" alt="image" src="https://github.com/user-attachments/assets/5460804d-aceb-48ab-b853-cc9575d799d7" /> <img width="1878" height="866" alt="image" src="https://github.com/user-attachments/assets/197ff205-c817-4aaf-b47b-dec721cf75f8" /> <img width="1881" height="865" alt="image" src="https://github.com/user-attachments/assets/0bcbae6a-3c05-44ff-b53d-75c3a3f71c2c" /> <img width="1881" height="866" alt="image" src="https://github.com/user-attachments/assets/8de99117-5c01-4a62-ba6b-dfeaf449a86f" />|
 | *Dashboard con clima actual y pronóstico* | *Manejo de caché y mensajes de validación* |
 
 ##  Características Principales
